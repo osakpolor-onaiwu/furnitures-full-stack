@@ -1,0 +1,42 @@
+
+@media only screen and (min-width:1000px){
+    div#side{
+        display: flex;
+        flex-direction: column;
+        div{
+            margin: 2% 0 0 0;
+        }
+        .sidelink{
+            text-decoration: none;
+            margin:2% 0 0 0;
+            color: white;
+        }
+       
+    }
+}
+
+@media only screen and (max-width:999px){
+    div#side{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        div{
+            margin: 2% 0px;
+            padding: 5px 5px;
+            text-align: center;
+            border: 1px solid white;
+            &:hover{
+                background-color: mix(blue,green,55%);
+            }
+        }
+        .sidelink{
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            font-size: 11px;
+        }
+      
+    }
+}

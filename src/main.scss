@@ -1,0 +1,29 @@
+@import './scss/abstract/mixin';
+@import './scss/component/buttons';
+@import './scss/abstract/placehold';
+@import './scss/abstract/variables';
+@import './scss/layout/navbar';
+@import './scss/pages/homepageDesktop';
+@import './scss/pages/homepageMobile';
+@import './scss/pages/homepageTab';
+@import './scss/pages/homepageSmallTab';
+@import './scss/pages/productDetails';
+@import './scss/layout/footer';
+@import './scss/pages/login';
+@import './scss/pages/products';
+@import './scss/component/forms';
+@import './scss/layout/sidenav';
+@import './scss/pages/cart';
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html,body{
+    margin: 0px;
+    font-family: 'Spartan', sans-serif;
+    height: 100%;
+}
+
+

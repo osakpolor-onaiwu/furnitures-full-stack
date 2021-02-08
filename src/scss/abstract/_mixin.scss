@@ -1,0 +1,6 @@
+@mixin Layout($cols) {
+    display: grid;
+    grid-template-columns: $cols;
+    margin: 0px;
+    padding: 0px;
+}

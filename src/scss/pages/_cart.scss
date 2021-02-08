@@ -1,0 +1,43 @@
+@media only screen and (min-width:600px){
+section#Cart{
+    margin-top:7%;
+    div#cartDescription{
+        display: flex;
+        border-bottom: 1px solid darkblue;
+        padding: 2% 1%;
+    }
+    img{
+        width: 35%;
+        margin-right: 2%;
+        height: 230px;
+    }
+}
+button#order{
+    @include buttons(150px)
+}
+
+} 
+
+
+@media only screen and (max-width:599px){
+    section#Cart{
+        margin-top:12%;
+        div#cartDescription{
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid darkblue;
+            padding: 2% 2%;
+        }
+        img{
+            width: 94%;
+            flex-basis: 94%;
+            margin: 1% 2%;
+            height: 230px;
+        }
+    }
+    button#order{
+        @include buttons(150px)
+    }
+    
+    
+    } 

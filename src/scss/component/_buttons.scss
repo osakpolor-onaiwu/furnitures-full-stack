@@ -1,0 +1,12 @@
+@mixin buttons($wide) {
+    height: 40px;
+    width: $wide;
+    background-color: rgb(8, 41, 102);
+    color: white;
+    margin: 10px 0;
+
+    &:hover{
+        background-color: rgba(9, 9, 121, 0.741);
+    }
+   
+}
